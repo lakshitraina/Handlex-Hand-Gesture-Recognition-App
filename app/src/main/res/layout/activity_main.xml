@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#F5F5F5">
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HandLex"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnSignRecognition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Language Recognition"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnTextToSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text to Sign Language"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnSpeechToText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speech to Text"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnvd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Video Tutorial"
+            android:backgroundTint="#FF9800"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

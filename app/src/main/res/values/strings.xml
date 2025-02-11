@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HandLex</string>
+    <string-array name="gesture_labels">
+        <item>Hello</item>
+        <item>Thank You</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Please</item>
+        <item>Help</item>
+        <item>Love</item>
+        <item>Stop</item>
+        <item>Sorry</item>
+        <item>Goodbye</item>
+    </string-array>
+
+</resources>

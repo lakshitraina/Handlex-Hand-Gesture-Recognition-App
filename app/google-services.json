@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "858635523750",
+    "project_id": "handlex-6e833",
+    "storage_bucket": "handlex-6e833.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858635523750:android:72d1eecd9265664c48c667",
+        "android_client_info": {
+          "package_name": "com.example.handlex"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZc0_W5hCi8MHwkvtmQW2QCJaCnfNwkOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
